@@ -15,7 +15,7 @@ class OrderData:
     of a specific order.
     """
 
-    symbol: str
+    symbol: st
     orderid: str
 
     type: OrderType = OrderType.LIMIT
@@ -39,7 +39,7 @@ class OrderBook:
     """
     direciton: Direction = None
     price: float = 0
-    
+
 
 
 
