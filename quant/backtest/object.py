@@ -15,7 +15,7 @@ class OrderData:
     of a specific order.
     """
 
-    symbol: st
+    symbol: str
     orderid: str
 
     type: OrderType = OrderType.LIMIT
